@@ -12,7 +12,7 @@
     display: none;
     align-items: center; justify-content: center;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: all 0.4s;
     border: none;
     font-size: 14px;
 }
