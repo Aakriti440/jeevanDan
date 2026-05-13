@@ -1,6 +1,7 @@
 <?php require_once APP_ROOT . '/app/views/layouts/header.php'; ?>
 
 <div class="profile-page">
+    
     <div class="container">
         <div class="page-header">
             <h1><i class="fas fa-plus-circle"></i> Create Blood Request</h1>
@@ -76,6 +77,7 @@
     <option value="urgent">Medium — Needed within 24 hours</option>
     <option value="critical">High — Emergency, needed immediately</option>
 </select>
+
                     </div>
                     <div class="form-group">
                         <label>Required By (Date)</label>
