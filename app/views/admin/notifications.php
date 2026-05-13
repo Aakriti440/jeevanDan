@@ -84,7 +84,6 @@
         <?php endif; ?>
     </div>
 </div>
-
 <script>
 function deleteNotification(notifId) {
     if (!confirm('Delete this notification?')) return;
