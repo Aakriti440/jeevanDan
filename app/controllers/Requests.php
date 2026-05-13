@@ -3,7 +3,7 @@
  * Requests Controller
  */
 class Requests extends Controller {
-    
+
     public function index() {
         $result = $this->db->query("
             SELECT * FROM blood_requests 
@@ -19,9 +19,6 @@ class Requests extends Controller {
         ]);
     }
     
-    /**
-     * View single request - renamed to avoid conflict
-     */
     public function details($id = null) {
         if (!$id) {
             $this->redirect('requests');
