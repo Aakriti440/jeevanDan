@@ -7,8 +7,7 @@
             <a href="<?php echo APP_URL; ?>/auth/logout" class="btn btn-outline">
                 <i class="fas fa-sign-out-alt"></i> Logout
             </a>
-        </div>
-        
+</div>
         <?php if (isset($flash)): ?>
             <div class="alert alert-<?php echo $flash['type']; ?>">
                 <?php echo $flash['message']; ?>
