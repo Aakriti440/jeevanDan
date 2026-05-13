@@ -8,7 +8,6 @@
                 <i class="fas fa-arrow-left"></i> Back
             </a>
         </div>
-
         <div class="table-responsive">
             <table class="data-table">
                 <thead>
