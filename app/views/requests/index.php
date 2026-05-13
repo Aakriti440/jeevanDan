@@ -36,6 +36,7 @@
                     </div>
                 <?php endforeach; ?>
             </div>
+            
         <?php else: ?>
             <div class="no-data">
                 <i class="fas fa-check-circle"></i>
