@@ -19,7 +19,7 @@
     cursor: pointer;
     transition: all 0.3s;
     border: none;
-    font-size: 14px;
+    font-size: 13px;
 }
 .notification-item:hover .notification-delete {
     display: flex;
