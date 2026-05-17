@@ -288,7 +288,6 @@
     </div>
 </div>
 
-
 <script>
 // File upload preview
 document.querySelectorAll('input[type="file"]').forEach(function(input) {
