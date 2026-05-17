@@ -1,4 +1,8 @@
 <?php require_once APP_ROOT . '/app/views/layouts/header.php'; ?>
+<?php
+echo "PHP IS RUNNING";
+exit;
+?>
 
 <div class="dashboard">
     <div class="container">
