@@ -14,7 +14,6 @@ class Organization extends Controller {
     public function index() {
         $this->redirect('organization/dashboard');
     }
-
     public function dashboard() {
         $orgId = $_SESSION['user_id'];
 
