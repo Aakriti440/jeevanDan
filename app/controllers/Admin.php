@@ -14,7 +14,6 @@ class Admin extends Controller {
     public function index() {
         $this->redirect('admin/dashboard');
     }
-    
     public function dashboard() {
         $stats = [
             'total_users' => $this->db->query("SELECT COUNT(*) as c FROM users")->fetch_assoc()['c'],
