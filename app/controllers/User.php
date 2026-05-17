@@ -11,7 +11,6 @@ class User extends Controller {
     public function index() {
         $this->redirect('user/dashboard');
     }
-    
     public function dashboard() {
         $userId = $_SESSION['user_id'];
         
